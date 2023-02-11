@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding:0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url('https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2589&q=80');
+    color:#00425A;
+}
+.container{
+    max-width: 500px;
+    padding: 3rem;
+    background-color: #92B0D4;
+    margin: 0 auto;
+    opacity: .9;
+    border-radius: 1rem;
+}
+h2{
+   font-size: 2.3rem;
+}
+h4{
+    margin-bottom:2rem;
+}
+fieldset{
+    padding: 2rem;
+    border: 1px solid white;
+}
+legend{
+    font-size: 17px;
+    padding: 1rem;
+}
+
+.radio{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .8rem;
+}
+button,input{
+    border-radius: .8rem;
+    border: none;
+    padding: .8rem;
+}
+input{
+    padding: .8rem;
+    margin-bottom: .5rem;
+}
+button{
+    cursor:pointer;
+}
+.btns{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+button[type='submit']{
+
+    padding: .8rem;
+    background-color: #E2ABB0;
+
+}
+
+.showResult{
+    margin-top: 1rem;
+    font-size: 21px;
+    font-weight:bold;
+}
