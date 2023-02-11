@@ -10,6 +10,8 @@ body{
     align-items: center;
     background-image: url('https://images.unsplash.com/photo-1514477917009-389c76a86b68?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2589&q=80');
     color:#00425A;
+    background-size:cover;
+    background-repeat: no-repeat;
 }
 .container{
     max-width: 500px;
@@ -19,8 +21,12 @@ body{
     opacity: .9;
     border-radius: 1rem;
 }
+.header {
+    text-align:center;
+}
 h2{
    font-size: 2.3rem;
+   margin-bottom: 1rem;
 }
 h4{
     margin-bottom:2rem;
@@ -31,22 +37,33 @@ fieldset{
 }
 legend{
     font-size: 17px;
-    padding: 1rem;
+    padding: 0 1rem;
 }
 
 .radio{
     display: flex;
     justify-content: space-between;
-    margin-bottom: .8rem;
+    margin-bottom: 1rem;
 }
 button,input{
     border-radius: .8rem;
     border: none;
     padding: .8rem;
 }
+
 input{
     padding: .8rem;
     margin-bottom: .5rem;
+}
+
+.tempInput:has(.temp){
+    display: flex;
+    justify-content:center;
+}
+.temp{
+    width: 70%;
+    text-align: center;
+    font-size: 21px;
 }
 button{
     cursor:pointer;
@@ -58,10 +75,8 @@ button{
     justify-content: space-between;
 }
 button[type='submit']{
-
     padding: .8rem;
     background-color: #E2ABB0;
-
 }
 
 .showResult{
